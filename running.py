@@ -49,10 +49,10 @@ def visualize_routes(data_dir, map_file):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Visualizes GPX routes")
-    parser.add_argument("--data", type=str, required=True, help="Folder with GPX files")
+    parser = argparse.ArgumentParser(description="GPX routes visualization")
+    parser.add_argument("--data", type=str, required=True, help="folder with GPX files")
     parser.add_argument(
-        "--map", type=str, required=True, help="Path to the output map file"
+        "--map", type=str, required=True, help="path to the output map file"
     )
     args = parser.parse_args()
 

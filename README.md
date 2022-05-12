@@ -24,3 +24,6 @@
     ```bash
     python running.py --help
     ```
+
+## Usage demo
+![](./assets/img/usage_example.gif)

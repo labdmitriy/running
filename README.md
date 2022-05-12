@@ -1,4 +1,4 @@
-# Visualization of the running routes
+# Running routes visualization
 ## Functionality
 - GPX files parsing
 - Routes visualization using OpenStreetMap

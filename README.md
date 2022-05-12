@@ -1,4 +1,7 @@
 # Running routes visualization
+## Related article
+https://labdmitriy.github.io/blog/running-routes-visualization
+
 ## Functionality
 - GPX files parsing
 - Routes visualization using OpenStreetMap

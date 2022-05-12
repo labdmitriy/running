@@ -9,8 +9,6 @@ from tqdm import tqdm
 
 
 def visualize_routes(data_dir, map_file):
-    data_dir = Path(data_dir)
-    map_file = Path(map_file)
     map_file_dir = map_file.parent
     map_file_dir.mkdir(parents=True, exist_ok=True)
 
@@ -56,7 +54,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    data_dir = args.data
-    map_file = args.map
+    data_dir = Path(args.data)
+    map_file = Path(args.map)
 
-    visualize_routes(args.data, args.map)
+    visualize_routes(data_dir, map_file)
